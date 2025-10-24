@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #020617; /* Dark slate gray-blue */
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px;
+}
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.35);
+}
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin-slow {
+  animation: spin-slow 5s linear infinite;
+}
+
