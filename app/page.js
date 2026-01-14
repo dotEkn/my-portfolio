@@ -174,7 +174,7 @@ export default function Home() {
             src: "https://github-readme-stats.vercel.app/api?username=dotEkn&show_icons=true&hide_border=true&theme=tokyonight&bg_color=0d1117&cache_seconds=21600",
             alt: "GitHub stats",
           }, {
-            src: "https://github-readme-stats.vercel.app/api/top-langs/?username=dotEkn&layout=compact&langs_count=10&hide_border=true&theme=tokyonight&bg_color=0d1117&cache_seconds=21600",
+            src: "https://github-readme-stats.vercel.app/api/top-langs/?username=dotEkn&layout=compact&langs_count=12&hide_border=true&theme=tokyonight&bg_color=0d1117&cache_seconds=21600",
             alt: "Top languages",
           }, {
             src: "https://streak-stats.demolab.com?user=dotEkn&theme=tokyonight&hide_border=true&background=0d1117",
