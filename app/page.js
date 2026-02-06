@@ -176,14 +176,16 @@ export default function Home() {
           }, {
             src: "https://github-readme-stats-beryl-one-12.vercel.app/api/top-langs/?username=dotEkn&layout=compact&langs_count=12&hide_border=true&theme=tokyonight&bg_color=0d1117&cache_seconds=21600",
             alt: "Top languages",
-          }, {
-            src: "https://github-readme-streak-stats-eight.vercel.app/demo/?user=dotEkn&theme=tokyonight&hide_border=true&background=0d1117",
-            alt: "GitHub streak",
           }].map((card, i) => (
             <div key={i} className="relative group flex justify-center items-center">
               <div className="absolute w-full h-full rounded-xl bg-emerald-500/20 blur-lg opacity-0 group-hover:opacity-100 transition duration-500"></div>
               <div className="relative z-10 flex items-center justify-center w-[380px] h-[170px] bg-[#0d1117] rounded-lg shadow-md overflow-hidden hover-lift">
-                <img src={card.src} alt={card.alt} className="object-contain max-w-[95%] max-h-[95%]" loading="lazy" />
+                <img
+                  src={card.src}
+                  alt={card.alt}
+                  className="object-contain max-w-[95%] max-h-[95%]"
+                  loading="lazy"
+                />
               </div>
             </div>
           ))}
