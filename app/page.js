@@ -177,7 +177,7 @@ export default function Home() {
             src: "https://github-readme-stats-beryl-one-12.vercel.app/api/top-langs/?username=dotEkn&layout=compact&langs_count=12&hide_border=true&theme=tokyonight&bg_color=0d1117&cache_seconds=21600",
             alt: "Top languages",
           }, {
-            src: "https://streak-stats.demolab.com?user=dotEkn&theme=tokyonight&hide_border=true&background=0d1117",
+            src: "https://github-readme-streak-stats-eight.vercel.app/demo/?user=dotEkn&theme=tokyonight&hide_border=true&background=0d1117",
             alt: "GitHub streak",
           }].map((card, i) => (
             <div key={i} className="relative group flex justify-center items-center">
